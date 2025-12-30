@@ -1,0 +1,22 @@
+{
+    "name": "agent-skills",
+    "owner": {
+        "name": "ryanchen01",
+        "url": "https://github.com/ryanchen01"
+    },
+    "metadata": {
+        "version": "1.0.0",
+        "description": "Practical agents skills for analysis and reporting."
+    },
+    "plugins": [
+        {
+            "name": "analysis-report",
+            "description": "Generates comprehensive, structured reports.",
+            "source": "./",
+            "strict": false,
+            "skills": [
+                "./skills/analysis-report"
+            ]
+        }
+    ]
+}
